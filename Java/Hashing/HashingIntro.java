@@ -19,7 +19,7 @@ class HashingIntro
     }
     public static void main(String args[])
     {
-        int nums[]={8,3,11,8,7,8,2,3,9,7};
+        int nums[]={8,3,11,8,7,8,14,3,9,7};
         int result=mostOccuring(nums);
         System.out.println(result);
     }
