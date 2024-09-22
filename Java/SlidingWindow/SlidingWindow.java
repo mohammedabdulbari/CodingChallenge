@@ -6,11 +6,12 @@ class SlidingWindow
         int sum=0;
         for(;j<k;j++)
             sum+=nums[j];
+        j--;
         int max=sum;
         while(j<nums.length-1)
         {
             sum-=nums[i++];
-            sum+=nums[j++];
+            sum+=nums[++j];
             if(sum>max)
                 max=sum;
         }
