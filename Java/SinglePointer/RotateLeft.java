@@ -8,7 +8,7 @@ public class RotateLeft{
           nums[i]=nums[i+1];
         }
 
-        temp[nums.length-1]=temp;
+        nums[nums.length-1]=temp;
         
     }
     public static void main(String args[])
