@@ -1,6 +1,6 @@
 class HashingIntro
 {
-    static int mostOccuring(int nums[])
+    static int mostOccurring(int nums[])
     {
         int max=Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++)
@@ -20,7 +20,7 @@ class HashingIntro
     public static void main(String args[])
     {
         int nums[]={8,3,11,8,7,8,14,3,9,7};
-        int result=mostOccuring(nums);
+        int result=mostOccurring(nums);
         System.out.println(result);
     }
 }
