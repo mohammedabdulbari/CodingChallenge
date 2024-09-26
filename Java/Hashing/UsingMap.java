@@ -1,7 +1,7 @@
 import java.util.*;
 class UsingMap
 {
-    static char mostOccuringLetter(String str)
+    static char mostOccurringLetter(String str)
     {
         str=str.toLowerCase();
         char letters[]=str.toCharArray();
@@ -28,7 +28,7 @@ class UsingMap
     public static void main(String args[])
     {
         String str="mkbqsqjbyq";
-        char result=mostOccuringLetter(str);
+        char result=mostOccurringLetter(str);
         System.out.println(result);
     }
 }
