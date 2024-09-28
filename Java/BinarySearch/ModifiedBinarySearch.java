@@ -21,7 +21,7 @@ class ModifiedBinarySearch
                 if(key>nums[mid] && key<=nums[h])
                     l=mid+1;
                 else
-                    h=mid+1;
+                    h=mid-1;
             }
         }
         return -1;
