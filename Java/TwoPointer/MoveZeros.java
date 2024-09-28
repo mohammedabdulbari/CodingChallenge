@@ -1,4 +1,4 @@
-class MoveZeros
+class MoveZeroes
 {
     static public void moveZeroes(int[] nums) {
         int i=0,j=0,n=nums.length;
