@@ -10,11 +10,11 @@ public class ArrayIsPalindrome{
             i++;
             j--;
         }
-        return true
+        return true;
     }
     public static void main(String args[])
     {
         int arr[]={1,2,3,4,3,2,1};
-        System.out.println(isPalindrome(arr);
+        System.out.println(isPalindrome(arr));
     }
 }
