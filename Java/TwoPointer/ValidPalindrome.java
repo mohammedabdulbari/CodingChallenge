@@ -34,8 +34,6 @@ class ValidPalindrome
 
     public static void main(String[] args)
     {
-        int[] arr = { 1, 4, 45, 6, 10, 8 };
-        int sum = 22;
         System.out.println(isPalindrome("No, it is open on one position"));
     }
 }
