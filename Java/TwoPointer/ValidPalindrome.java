@@ -19,7 +19,6 @@ class ValidPalindrome
         while(l<r && !isAlphaNumeric(str[r]))r--;
         while(l<r)
         {
-            System.out.println(str[l]+" "+str[r]);
             if(str[l]!=str[r])
                 return false;
             do{l++;}while(l<r && !isAlphaNumeric(str[l]));
