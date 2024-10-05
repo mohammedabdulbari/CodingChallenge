@@ -10,11 +10,7 @@ class ValidPalindrome
         if(x>='0' && x<='9')return true;
         return false;
     }
-    public static boolean isEqual(char x,char y)
-    {
-        if(x-y==0 || Math.abs(x-y)==32)return true;
-        return false;
-    }
+  
     public static boolean isPalindrome(String s) {
         s=s.toLowerCase();
         char str[]=s.toCharArray();
