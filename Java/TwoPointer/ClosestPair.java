@@ -8,7 +8,7 @@ class ClosestPair
 
         int l = 0;
         int r = arr.length - 1;
-        while( r-l+1 > k)
+        while( r-l >= k)
         {
            if(Math.abs(arr[l] - x) > Math.abs(arr[r] - x)){
                l++;
