@@ -17,7 +17,7 @@ class FindMinRotatedArray
  
 public static void main(String[] args)
 {
-    int prices[]={10,11,12,13,3,4,5,6,7};
-    System.out.println(findMin(prices));
+    int nums[]={10,11,12,13,3,4,5,6,7};
+    System.out.println(findMin(nums));
 }
 }
