@@ -4,7 +4,7 @@ class FindMinRotatedArray
 {
     public static int findMin(int[] nums) {
         int l=0,h=nums.length-1,mid;
-        while(l<=h)
+        while(l<h)
         {
             mid=(l+h)/2;
             if(mid!=0 && nums[mid]<nums[mid-1]) return nums[mid];
@@ -12,7 +12,7 @@ class FindMinRotatedArray
             else l=mid+1;
 
         }
-    return nums[0];
+        return nums[l];
     }
  
 public static void main(String[] args)
