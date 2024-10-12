@@ -9,16 +9,16 @@ class BoatsToSavePeople
         int i=0,j=people.length-1,count=0;
         while(i<=j)
         {
-            if(i!=j && people[i]+people[j]<=limit)
+            if(people[i]+people[j]<=limit)
             {
                 count++;
-                i++;j--;
+                i++;
             }
             else
             {
                 count++;
-                j--;
             }
+            j--;
         }
         return count;
         
