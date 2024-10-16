@@ -5,7 +5,12 @@ class PreviousNext
         while(l<=h)
         {
             mid=(l+h)/2;
-           
+
+            if(target==nums[mid])
+            {
+                return new int[]{mid==0?-1:nums[mid-1],mid==nums.length-1?-1:nums[mid+1]};
+            }
+            
             if(target < nums[mid])
                 h=mid-1;
             else
