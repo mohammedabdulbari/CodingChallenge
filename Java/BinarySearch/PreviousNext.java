@@ -6,7 +6,7 @@ class PreviousNext
         {
             mid=(l+h)/2;
            
-            if(nums[mid]>target)
+            if(target < nums[mid])
                 h=mid-1;
             else
                 l=mid+1;
