@@ -1,6 +1,13 @@
 
 class FindKthMissing
 {
+     /* public int findKthPositive(int[] arr, int k) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] <= k)
+                k++;
+        }
+        return k;
+    }*/
     static int findKthPositive(int[] arr, int k) 
     {
         int low = 0, high = arr.length - 1;
