@@ -27,7 +27,7 @@ class SmallestDivisor
     public static void main(String args[])
     {
         int nums[]={1,3,6,11};
-        int index=smallestDivisor(nums,4,7);
+        int index=smallestDivisor(nums,7);
         System.out.println(index);
     }
 }
